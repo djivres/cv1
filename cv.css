@@ -1,0 +1,61 @@
+/* Définir la police de base pour le corps du CV */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Style du titre principal */
+h1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+/* Style des sous-titres h2 */
+h2 {
+    color: #333;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+/* Liste des compétences */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    background-color: #e0e0e0;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* Style des sections */
+section {
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Mise en forme de la page pour la rendre plus lisible */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Ajout d'un peu d'espace entre les sections */
+section + section {
+    margin-top: 20px;
+}
